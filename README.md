@@ -1,8 +1,6 @@
-# Projet IA 1.03 v2
+# Projet IA 1.03
 
 Utilisation de données smartphones pour reconnaître les activités de leurs utilisateurs.
-
-Version nettoyée.
 
 ## Librairies utilisées en python
 

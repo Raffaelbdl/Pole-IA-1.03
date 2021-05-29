@@ -252,10 +252,10 @@ def MergeAllInertialData():
     --------
     data        :       3-dim np.array of shape (n,m,6)"""
     file_paths_test = [s for s in os.listdir(
-        "working_data/test/Inertial Signals") if s[0] == 'b']
+        "original_data/test/Inertial_Signals") if s[0] == 'b']
     file_paths_train = [s for s in os.listdir(
-        "working_data/train/Inertial Signals") if s[0] == 'b']
-    arrays = [np.concatenate((readFile("working_data/test/Inertial Signals/"+file_paths_test[i]),
-                              readFile("working_data/train/Inertial Signals/"+file_paths_train[i]))) for i in range(6)]
+        "original_data/train/Inertial_Signals") if s[0] == 'b']
+    arrays = [np.concatenate((readFile("original_data/test/Inertial_Signals/"+file_paths_test[i]),
+                              readFile("original_data/train/Inertial_Signals/"+file_paths_train[i]))) for i in range(6)]
     data = np.stack(arrays, axis=2)
     return data
