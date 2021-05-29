@@ -384,7 +384,7 @@ def get_best_score(X, subjects, nb_indiv, Score_fct, max_or_min, shuffle=True):
 
         best_score = min(score_set)
         print(best_score, shapes_set[score_set.index(
-            best_score)], score_set)
+            best_score)])
         return best_score, shapes_set[score_set.index(
             best_score)]
 
