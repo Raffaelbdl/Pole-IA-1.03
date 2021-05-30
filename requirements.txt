@@ -5,3 +5,4 @@ pandas
 progress
 seaborn
 tensorflow >= 2.4.1
+fastdtw
