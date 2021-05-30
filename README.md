@@ -10,8 +10,10 @@ Pour initialiser l'environnement avec les bonnes librairies : "pip install -r re
 ## Structure du dossier GitHub
 
 Les prétraitements sont accessibles dans les jupyter :
-### dtw.ipynb
-### fft.ipynb
-### cnn.ipynb
+* dtw.ipynb
+* fft.ipynb
+* cnn.ipynb
 
-Les fonctions de score sont dans utils.scoring
+Les fonctions de score sont dans **utils.scoring**
+
+Par Adrien Berger, Raffael Bolla Di Lorenzo, Fabien Charlier, Ian-Evan Michel, Aymeric Palaric
