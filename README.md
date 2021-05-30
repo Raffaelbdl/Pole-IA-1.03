@@ -1,7 +1,17 @@
 # Projet IA 1.03
 
-Utilisation de données smartphones pour reconnaître les activités de leurs utilisateurs.
+Ceci est notre projet 1A Pôle IA à CentraleSupélec : Etude de l'activité physique d'utilisateurs de smartphones
 
-## Librairies utilisées en python
+## Mise en place de l'environnement et librairies utilisées
 
-Les librairies python utilisées pour ce projet sont précisées dans le document "requirements.txt". Pour mettre à jour vos librairies et installer celles qui sont manquantes utiliser la commande : "pip install -r requirments.txt"
+Les librairies Python utilisées dans ce projet sont précisées dans le fichier "requirements.txt". 
+Pour initialiser l'environnement avec les bonnes librairies : "pip install -r requirments.txt"
+
+## Structure du dossier GitHub
+
+Les prétraitements sont accessibles dans les jupyter :
+### dtw.ipynb
+### fft.ipynb
+### cnn.ipynb
+
+Les fonctions de score sont dans utils.scoring
