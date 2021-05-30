@@ -9,6 +9,12 @@ Pour initialiser l'environnement avec les bonnes librairies : "pip install -r re
 
 ## Structure du dossier GitHub
 
+### Les données utilisées
+
+Le jeu de données utilisé est disponible au lien suivant :
+[Lien du jeu de données](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)
+Les données sont dans le dossier **original_data**
+
 ### Le dossier utils
 
 Les fonctions de score sont dans **utils.scoring**
