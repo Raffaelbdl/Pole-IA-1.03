@@ -9,11 +9,20 @@ Pour initialiser l'environnement avec les bonnes librairies : "pip install -r re
 
 ## Structure du dossier GitHub
 
-Les prétraitements sont accessibles dans les jupyter :
+### Le dossier utils
+
+Les fonctions de score sont dans **utils.scoring**
+
+Les fichiers **io.py**, **merging.py** et **tools.py** contiennent des fonctions appelées fréquemment dans tous les autres codes.
+
+### Les prétraitements
+
+Les prétraitements sont accessibles dans les jupyter notebooks :
 * dtw.ipynb
 * fft.ipynb
 * cnn.ipynb
 
-Les fonctions de score sont dans **utils.scoring**
+Les sorties éventuelles de ces prétraitements se trouvent dans le fichier **outputs**. Le fichier **saved_models** contient des sauvegardes des paramètres du CNN.
+Chaque prétraitement est également sous forme d'un fichier python. **fft.ipynb** utilise des fonctions de **fourier_analysis.py**.
 
 Par Adrien Berger, Raffael Bolla Di Lorenzo, Fabien Charlier, Ian-Evan Michel, Aymeric Palaric
