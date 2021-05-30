@@ -29,7 +29,7 @@ Les prétraitements sont accessibles dans les jupyter notebooks :
 * fft.ipynb
 * cnn.ipynb
 
-Les sorties éventuelles de ces prétraitements se trouvent dans le fichier **outputs**. Le fichier **saved_models** contient des sauvegardes des paramètres du CNN.
+Les sorties éventuelles de ces prétraitements se trouvent dans le dossier **outputs**. Le dossier **saved_models** contient des sauvegardes des paramètres du CNN.
 Chaque prétraitement est également sous forme d'un fichier python. **fft.ipynb** utilise des fonctions de **fourier_analysis.py**.
 
 Par Adrien Berger, Raffael Bolla Di Lorenzo, Fabien Charlier, Ian-Evan Michel, Aymeric Palaric
